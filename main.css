@@ -1,7 +1,7 @@
 *,
 body,
 html {
-    background-color: magenta;
+    background-color: #B9B4C7;
     margin: 0;
     font-family: "Happy Monkey", system-ui;
     font-weight: 400;
@@ -19,7 +19,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: white;
+    background-color: #352F44;
     position: -webkit-sticky;
     /* Safari */
     position: sticky;
@@ -31,7 +31,7 @@ li {
 }
 
 li a {
-    background-color: pink;
+    background-color: #352F44;
     display: block;
     color: white;
     text-align: center;
@@ -40,11 +40,11 @@ li a {
 }
 
 li a:hover {
-    background-color: orange;
+    background-color: #0F0F0F;
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: #5C5470;
 }
 
 .prevent-select {
@@ -54,4 +54,22 @@ li a:hover {
     /* IE 10 and IE 11 */
     user-select: none;
     /* Standard syntax */
+}
+
+.introduction {
+    font-size: large;
+}
+
+.intro-img {
+    margin-right: 1%;
+    float: left;
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+}
+
+.intro-text {
+    text-indent: 0.1%;
+    font-size: large;
+    text-align: left;
 }
