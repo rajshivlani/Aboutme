@@ -3,41 +3,72 @@
 
 <head>
   <link rel="icon" type="image/x-icon" src="">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Raj Shivlani's portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src='main.js'></script>
+  <script src="http://code.jquery.com/jquery-1.6.2.min.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="icon.png">
+  <script>
+    $(document).ready(() => {
+      $('#link1').click(function (e) {
+        e.target.href = `#${e.target.dataset.link}`
+      });
+      $('#link2').click(function (e) {
+        e.target.href = `#${e.target.dataset.link}`
+      });
+      $('#link3').click(function (e) {
+        e.target.href = `#${e.target.dataset.link}`
+      });
+      $('#link4').click(function (e) {
+        e.target.href = `#${e.target.dataset.link}`
+      });
+      $('#link5').click(function (e) {
+        e.target.href = `#${e.target.dataset.link}`
+      });
+      $('#link6').click(function (e) {
+        e.target.href = `#${e.target.dataset.link}`
+      });
+      $('#link7').click(function (e) {
+        e.target.href = `#${e.target.dataset.link}`
+      });
+      $('#link8').click(function (e) {
+        e.target.href = `#${e.target.dataset.link}`
+      });
+    })
+  </script>
 </head>
 
 <body>
-  <div class="header prevent-select">
+  <div id="home_area" class="header prevent-select">
     <h1>Raj Ashish Shivlani<h1>
         <h4>Delhi Public School Surat</h4>
   </div>
 
   <ul class="prevent-select">
-    <li><a class="active" href="#home">Home</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#goals">Acheievments</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#" data-link="home_area" id="link1" class="link active">Home</a></li>
+    <li><a href="#" data-link="projects1" id="link2" class="link active">Projects</a></li>
+    <li><a href="#" data-link="acheievments1" id="link3" class="link active">Acheievments</a></li>
+    <li><a href="#" data-link="contact_me" id="link4" class="link active">Contact</a></li>
   </ul>
 
   <center>
     <section class="introduction prevent-select">
       <div>
-        <img src="IMG_3732.JPG" class="intro-img" />
+        <img src="IMG_3726.JPG" class="intro-img" />
       </div>
       <div class="intro-text">
         <h1>
-          <p style="font-size: xx-large;">Hi<p><br>
+          <p style="font-size: xx-large;">Hi,<p>
               I am a teen studying in class 11th and wish to pursue my carrer in Computers.
-              <br><br>I started coding since i was 11 years old. I completed a 145 class course with WhiteHat Jr. at the age
-              of
-              13
-              <br><br>I aspire to one day to complete a project that helps thousands of people and make their life easier.
-              <br><br>I have been learning to code by myself. I have learnt a lot about HTML CSS & JS without any
+              <br>I started coding since i was 11 years old. I completed a 145 class course with WhiteHat Jr. at the
+              age of 13.
+              <br>I aspire to one day to complete a project that helps thousands of people and make their life
+              easier.
+              <br>I have been learning to code by myself. I have learnt a lot about HTML CSS & JS without any
               help from any teacher. I believe that coding can't be learnt, it is an art of how well you can communicate
               with the
               machince and make something magnificent. Programming launguages are just launguages but a person who loves
@@ -53,6 +84,19 @@
               explore, I aspire to learn these launguages till the day I can type.
               <br><br>
         </h1>
+      </div>
+      <br>
+    </section>
+
+    <section class="contact prevent-select">
+      <div id="contact_me">
+        <br>
+        <div><h1 style="font-size: xx-large;">Contact Me via my Socials</h1></div>
+        <a target="_blank" href="https://www.facebook.com/profile.php?id=61559346011468" class="fa fa-facebook"></a>
+        <a target="_blank" href="https://x.com/raj_shivlani " class="fa fa-twitter"></a>
+        <a target="_blank" href="https://www.instagram.com/raj_shivlani/" class="fa fa-instagram"></a>
+        <a target="_blank" href="https://pin.it/cNqSm1qgh" class="fa fa-pinterest"></a>
+        <a target="_blank" href="https://www.snapchat.com/add/raj_shivlani?share_id=Rnf9LMkgQt6pBCh73VWRbA&locale=en_US" class="fa fa-snapchat-ghost"></a>
       </div>
     </section>
   </center>
